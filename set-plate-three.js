@@ -17,7 +17,6 @@ addIngredientToBottom(p3BottomBurgerBun);
 
 /*
 Add your code below this comment to finish creating the following sandwich:
-
 - Toast
 - Tomato
 - Lettuce
@@ -28,3 +27,20 @@ Note: To finish creating your sandwich, use
         "addIngredientToTop", "addIngredientToBottom",
         "changeIngredient", and/or "removeIngredient"
 */
+removeIngredient(p3TopBurgerBun);
+removeIngredient(p3TomatoSlice);
+removeIngredient(p3LettuceLeaf);
+removeIngredient(p3CheeseSlice);
+removeIngredient(p3ChickenPatty);
+removeIngredient(p3BottomBurgerBun);
+
+let c3toast = getNewToast();
+let c3tomato = getNewToast();
+let c3lettuce = getNewLettuceLeaf();
+let c3bacon = getNewBaconStrips();
+
+addIngredientToTop(c3toast);
+addIngredientToBottom(c3tomato);
+addIngredientToBottom(c3lettuce);
+addIngredientToBottom(c3bacon);
+addIngredientToBottom(c3toast);
